@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/blog/',
   title: '学习笔记',
   description: '跨介质无人机飞控 · 学习记录',
   lang: 'zh-CN',
